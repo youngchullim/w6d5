@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clck {
+  display: inline-block;
+  background: burlywood;
+  border: 1px solid black;
+  padding: 5px;
+  position: relative;
+  left: 50%;
+}
+
+.headers {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0px;
+}
+
+.headers h1{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 0;
+  margin-bottom: 0;  
+}
+
+.tabs {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+  top: 300px;
+  background: lightblue;
+  
+}
+
+.tab-title {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0
+}
+
+.content {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
